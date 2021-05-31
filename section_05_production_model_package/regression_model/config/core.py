@@ -4,9 +4,6 @@ from typing import Dict, List, Sequence
 from pydantic import BaseModel
 from strictyaml import YAML, load
 
-import sys
-
-sys.path.append(r'D:\Dev\deploy_ml_models\deploying_machine_learning_models\section_05_production_model_package')
 import regression_model
 
 # Project Directories
